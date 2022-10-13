@@ -16,6 +16,7 @@ public class HashTableDemo {
 		//marks.put(null, null); //will face NullPointerException
 		//marks.put(null, 900); //will face NullPointerException
 		//marks.put("Boss", null); //will face NullPointerException
+		//marks.put("Anderson", 80);
 		System.out.println(marks);
 //		Output:
 //			{Arobby=50, Lisa=400, Naveen=200, Rajeev=100, Tom=300, Peter=600}
@@ -23,5 +24,6 @@ public class HashTableDemo {
 		System.out.println(marks.get("Rajeev")); //100
 		System.out.println(marks.get("Peter")); //600
 		//System.out.println(marks.get(null)); //will face NullPointerException
+		System.out.println(marks.get("Anderson")); //null
 	}
 }
